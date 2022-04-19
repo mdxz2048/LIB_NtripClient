@@ -42,7 +42,7 @@
 
         
 
-   3. 使用默认【院内RTK】平台测试
+   3. 使用默认【RTK】平台测试
 
         ```sh
         ./libmdxzntripclienttest -d
@@ -53,10 +53,7 @@
    4. 使用自定义RTK平台测试
 
         ```sh
-        【上汽通五】
-        ./libmdxzntripclienttest -M NTRIP1 -s 47.108.55.66 -r 2101 -u sgmw0010 -p zhdgps -m 11353161
-        【中汽研院内】
-        ./libmdxzntripclienttest -M NTRIP1 -s 113.204.231.107 -r 33394 -u testrsu03 -p 1789789 -m RTCM32
+        ./libmdxzntripclienttest -M NTRIP1 -s 255.165.178.107 -r 33394 -u testrsu03 -p 1789789 -m RTCM32
         ```
 
         
