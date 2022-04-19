@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/caeri/lzp/GIT/NtripClient'
+echo src
+make -C src
+cc -c lib_ntripclient_test.c -o /home/caeri/lzp/GIT/NtripClient/debug/obj_demo/lib_ntripclient_test.o  -I/home/caeri/lzp/GIT/NtripClient/include  -I.  -g -pthread
+make -C debug
+make: Leaving directory '/home/caeri/lzp/GIT/NtripClient'
+ 
